@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+
+/* left section  */
+
+.weather {
+    background-color: #1E213A;
+    height: 100vh;
+    padding: 30px 0px;
+}
+
+.search {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    background-color: #6E707A;
+    font-size: small;
+    border-radius: 3px;
+    color: white;
+}
+
+.search input::placeholder {
+    color: whitesmoke;
+    font-size: small;
+}
+
+.search img {
+    width: 35px;
+    background-color: #6E707A;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+
+.icon {
+    height: 40vh;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    background-image: url('./assets/Cloud-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    opacity: 0.05;
+    z-index: 1;
+}
+
+.icon img {
+    width: 150px;
+    height: 180px;
+    margin-top: 40px;
+}
+
+.temperature {
+    height: 25vh;
+    text-align: center;
+}
+
+.temperature h1 {
+    color: white;
+    margin: 28px 0px;
+    font-size: 5rem;
+}
+
+span.degree {
+    font-size: 2rem;
+}
+
+.temperature p {
+    color: lightgray;
+    font-size: 1.5rem;
+}
+
+.today {
+    color: lightgray;
+    text-align: center;
+    padding: 30px;
+}
+
+.today p {
+    margin-top: 10px;
+}
+
+.today p:nth-child(2) {
+    font-size: 1.5rem;
+}
+
+
+
+/* right section  */
+
+.highlights {
+    background-color: #100E1D;
+    padding: 60px;
+    z-index: 2;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #1E213A;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+.card p {
+    color: white;
+}
+
+.card img {
+    width: 60px;
+    margin: 10px 0px;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.temp p:nth-child(2) {
+    color: gray;
+}
+
+.highlights h2 {
+    color: white;
+    font-weight: 600;
+    margin: 70px 0px 20px 0px;
+}
+
+/* right - bottom section  */
+
+.status {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.status-card {
+    background-color: #1E213A;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 3px;
+}
+
+.status-card p {
+    color: lightgray;
+    font-size: large;
+    font-weight: 700;
+}
+
+.status-card h1 {
+    font-size: 3.5rem;
+    margin: 10px;
+    color: white;
+}
+
+.small {
+    font-size: 2rem;
+}
