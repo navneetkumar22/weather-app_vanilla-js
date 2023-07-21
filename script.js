@@ -1,4 +1,4 @@
-let apiKey = "0d94c6acf027134d94d41107d7c1bd2a";
+let apiKey = "urApiKey";
 let searchInput = document.getElementById('seachInput');
 let myLocation = searchInput.value;
 
