@@ -125,7 +125,7 @@ span.degree {
 .card {
     background-color: #1E213A;
     text-align: center;
-    padding: 15px 25px;
+    padding: 15px;
     border-radius: 3px;
 }
 
@@ -184,4 +184,12 @@ span.degree {
 
 .small {
     font-size: 2rem;
+}
+
+
+/* suggestion section  */
+
+.suggest {
+    display: none;
+    background-color: #1E213A;
 }
